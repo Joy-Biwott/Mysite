@@ -17,11 +17,11 @@
                     <li><a href="blog.php">Find Blogs</a></li>
                     <?php 
                         if(isset($_SESSION["useruid"])){
-                            echo "<li><a href="profile.php">Profile Page</a></li>";
-                            echo "<li><a href="login.php">Log in</a></li>";
+                            echo "<li><a href='profile.php'>Profile Page</a></li>";
+                            echo "<li><a href='login.php'>Log in</a></li>";
                         }else{
-                            echo "<li><a href="signup.php">Sign up</a></li>";
-                            echo "<li><a href="login.php">Log in</a></li>"; 
+                            echo "<li><a href='signup.php'>Sign up</a></li>";
+                            echo "<li><a href='login.php'>Log in</a></li>"; 
                         }
                     ?>
                     <li><a href="signup.php">Sign up</a></li>
