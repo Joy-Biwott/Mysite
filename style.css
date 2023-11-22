@@ -24,6 +24,7 @@ button {
     border: none;
     cursor: pointer;
 }
-/* ul {
+ul {
     justify-content: flex-end;
-} */
+    flex-direction: row;
+}

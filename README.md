@@ -22,6 +22,7 @@ This calls for the code to be stored dynamically i.e in the header.php & footer.
         2.THE SIGN-UP PAGE
 Create the file and like the headers and footers to it
 in the form, the action is the page the data will be sent to onSubmit
+"includes/signup.inc.php" is the page user sent to on submitting form 
 action set to signup.inc.php, a file in the includes directory
 
         3. THE LOG IN PAGE
@@ -32,6 +33,7 @@ A file, dbh.inc.php is created in the includes folder to connect to the database
 a. A database name is required for the file
  A variable conn is assigned that actually connects/ opens up to our database.
  *PDO* VS *MySQL i*
+ $conn is the variable (connection) that opens up to our database, accesses the data
 
         5. CREATING THE DATABASE TABLE
 we'll use create table.

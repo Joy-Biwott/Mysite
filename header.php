@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <div class="wrapper">
         <nav>
+        <div class="wrapper">
                 <ul>
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About us</a></li>
@@ -26,6 +26,7 @@
                     ?>
                     <li><a href="signup.php">Sign up</a></li>
                     <li><a href="login.php">Log in</a></li> 
-                </ul>    
+                </ul>  
+                </div>  
             </nav>
-        </div>
+        <div class="wrapper">

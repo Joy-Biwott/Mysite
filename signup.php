@@ -26,10 +26,10 @@
                 echo "<p>Something went wrong, try again!</p>";
             }else if ($_GET["error"] == "usernametaken"){
                 echo "<p>Username already taken!</p>";
+            }
                 else if ($_GET["error"] == "none"){
                     echo "<p>You have signed up!</p>";
                 }
-            }
 ?>
     </section>
 
